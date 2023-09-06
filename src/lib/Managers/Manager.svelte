@@ -9,6 +9,7 @@
     import ManagerAwards from './ManagerAwards.svelte';
     import { onMount } from 'svelte';
 	import { getDatesActive, getRosterIDFromManagerID, getTeamNameFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
+    import { gotoManager } from '$lib/utils/helper';
 
     export let manager, managers, rostersData, leagueTeamManagers, rosterPositions, transactionsData, awards, records, team;
 
