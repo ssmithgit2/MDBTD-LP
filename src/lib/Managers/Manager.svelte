@@ -10,7 +10,7 @@
     import { onMount } from 'svelte';
 	import { getDatesActive, getRosterIDFromManagerID, getTeamNameFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
 
-    export let manager, managers, rostersData, leagueTeamManagers, rosterPositions, transactionsData, awards, records;
+    export let manager, managers, rostersData, leagueTeamManagers, rosterPositions, transactionsData, awards, records, team;
 
     let transactions = transactionsData.transactions;
 
